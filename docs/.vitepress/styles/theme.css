@@ -1,0 +1,16 @@
+:root {
+  --vp-home-hero-name-color: #031c70;
+  --priColor: #031c70;
+  /* --vp-code-block-bg: #303643 ; */
+  /* --vp-c-brand-1: rgb(49, 170, 43); */
+  /* --vp-button-brand-bg: #f7b628; */
+  /* --vp-c-brand-1: #f7b628; */
+  --vp-c-brand-1: #031c70;
+  --vp-c-brand-2: #031c70;
+}
+
+pre code {
+  /* white-space: pre-wrap !important; /* 这会使得代码块内的文本自动换行 */
+  /* word-wrap: break-word !important; /* 这会使得长单词在行尾断开 */
+}
+

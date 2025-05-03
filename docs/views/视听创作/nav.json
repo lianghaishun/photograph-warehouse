@@ -1,0 +1,66 @@
+{
+  "nav": [
+    {
+      "text": "视听创作",
+      "items": [
+        {
+          "text": "后期流程",
+          "link": "/views/视听创作/后期流程/readme.md"
+        },
+        {
+          "text": "实战案例",
+          "link": "/views/视听创作/实战案例/readme.md"
+        },
+        {
+          "text": "转场设计",
+          "link": "/views/视听创作/转场设计/readme.md"
+        },
+        {
+          "text": "运镜技巧",
+          "link": "/views/视听创作/运镜技巧/readme.md"
+        },
+        {
+          "text": "音频音效",
+          "link": "/views/视听创作/音频音效/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/视听创作/后期流程": [
+      {
+        "text": "后期流程",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/视听创作/实战案例": [
+      {
+        "text": "实战案例",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/视听创作/转场设计": [
+      {
+        "text": "转场设计",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/视听创作/运镜技巧": [
+      {
+        "text": "运镜技巧",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/视听创作/音频音效": [
+      {
+        "text": "音频音效",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}

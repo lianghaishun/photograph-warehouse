@@ -1,0 +1,100 @@
+{
+  "nav": [
+    {
+      "text": "拍照姿势",
+      "items": [
+        {
+          "text": "人像姿势",
+          "link": "/views/拍照姿势/人像姿势/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/拍照姿势/人像姿势": [
+      {
+        "text": "人像姿势",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "单人姿势",
+            "items": [
+              {
+                "text": "个性类",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "优雅类",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "复古类",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "文艺类",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "时尚类",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "活泼类",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "运动类",
+                "items": [],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          },
+          {
+            "text": "多人姿势",
+            "items": [
+              {
+                "text": "三人",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "五人",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "同事",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "多人",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "情侣",
+                "items": [],
+                "collapsed": false
+              },
+              {
+                "text": "朋友",
+                "items": [],
+                "collapsed": false
+              }
+            ],
+            "collapsed": false
+          }
+        ]
+      }
+    ]
+  }
+}

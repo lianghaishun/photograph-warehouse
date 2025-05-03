@@ -1,0 +1,55 @@
+{
+  "nav": [
+    {
+      "text": "摄影技巧",
+      "items": [
+        {
+          "text": "光线运用",
+          "link": "/views/摄影技巧/光线运用/readme.md"
+        },
+        {
+          "text": "拍摄手法",
+          "link": "/views/摄影技巧/拍摄手法/readme.md"
+        },
+        {
+          "text": "构图方法",
+          "link": "/views/摄影技巧/构图方法/readme.md"
+        },
+        {
+          "text": "色彩搭配",
+          "link": "/views/摄影技巧/色彩搭配/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/摄影技巧/光线运用": [
+      {
+        "text": "光线运用",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/摄影技巧/拍摄手法": [
+      {
+        "text": "拍摄手法",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/摄影技巧/构图方法": [
+      {
+        "text": "构图方法",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/摄影技巧/色彩搭配": [
+      {
+        "text": "色彩搭配",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}

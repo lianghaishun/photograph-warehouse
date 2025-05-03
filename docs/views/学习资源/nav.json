@@ -1,0 +1,44 @@
+{
+  "nav": [
+    {
+      "text": "学习资源",
+      "items": [
+        {
+          "text": "书籍推荐.md",
+          "link": "/views/学习资源/书籍推荐.md/readme.md"
+        },
+        {
+          "text": "在线教程.md",
+          "link": "/views/学习资源/在线教程.md/readme.md"
+        },
+        {
+          "text": "论坛社区.md",
+          "link": "/views/学习资源/论坛社区.md/readme.md"
+        }
+      ]
+    }
+  ],
+  "sidebar": {
+    "/views/学习资源/书籍推荐.md": [
+      {
+        "text": "书籍推荐.md",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/学习资源/在线教程.md": [
+      {
+        "text": "在线教程.md",
+        "collapsed": false,
+        "items": []
+      }
+    ],
+    "/views/学习资源/论坛社区.md": [
+      {
+        "text": "论坛社区.md",
+        "collapsed": false,
+        "items": []
+      }
+    ]
+  }
+}

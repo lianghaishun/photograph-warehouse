@@ -1,0 +1,229 @@
+:root {
+  --infoColor: #909399;
+  --sucColor: #42b883;
+  --errColor: #f56c6c;
+  --warnColor: #e6a23c;
+  --priColor: #3451b2;
+  --infoBgColor: #e9e9eb;
+  --sucBgColor: #f0f9eb;
+  --err-bg-color: #fef0f0;
+  --warnBgColor: #fdf6ec;
+  --priBgColor: #ecf5ff;
+}
+
+info,
+infob {
+  color: var(--infoColor);
+}
+suc,
+sucb {
+  color: var(--sucColor);
+}
+
+err,
+errb {
+  color: var(--errColor);
+}
+
+warn,
+warnb {
+  color: var(--warnColor);
+}
+
+pri,
+prib {
+  color: var(--priColor);
+}
+
+infob,
+sucb,
+errb,
+warnb,
+prib {
+  font-weight: bold;
+}
+
+.page .content__default {
+  max-width: 1000px;
+}
+
+bqs,
+bqe,
+bqw,
+bqp,
+bws,
+bwe,
+bww,
+bwp,
+bwsr,
+bwer,
+bwwr,
+bwpr {
+  border-left: 0.2rem solid #dfe2e5;
+  color: #cd8e8e;
+  display: block;
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
+
+bqs,
+bws,
+bwsr {
+  background-color: var(--sucBgColor);
+  border-color: var(--sucColor);
+  color: var(--sucColor);
+}
+
+bqe,
+bwe,
+bwer {
+  background-color: var(--err-bg-color);
+  border-color: var(--errColor);
+  color: var(--errColor);
+}
+
+bqw,
+bww,
+bwwr {
+  background-color: var(--warnBgColor);
+  border-color: var(--warnColor);
+  color: var(--warnColor);
+}
+
+bqp,
+bwp,
+bwpr {
+  background-color: var(--priBgColor);
+  border-color: var(--priColor);
+  color: var(--priColor);
+}
+
+bws::before,
+bwe::before,
+bww::before,
+bwp::before {
+  content: "注意：";
+  font-weight: bold;
+}
+
+bwsr::before,
+bwer::before,
+bwwr::before,
+bwpr::before {
+  border-bottom: 1px solid;
+  content: "注意：";
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+bws::before,
+bwsr::before {
+  content: "结论：";
+}
+
+bww::before,
+bwwr::before {
+  content: "注意：";
+}
+
+bwp::before,
+bwpr::before {
+  content: "记录：";
+}
+
+rt {
+  color: var(--sucColor);
+  font-size: 14px;
+}
+
+/*
+<itv>
+    <itq>hello</itq>
+    <ita>world</ita>
+</itv>
+
+*/
+itv {
+  background-color: var(--err-bg-color);
+  border-left: 0.2rem solid var(--errColor);
+  color: #cd8e8e;
+  display: block;
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+}
+
+itv itq {
+  color: var(--errColor);
+  display: block;
+  font-weight: bold;
+}
+
+itv itq::before {
+  content: "[面试题] ";
+}
+
+itv itq::after {
+  background-color: var(--errColor);
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+itv ita {
+  color: var(--priColor);
+  display: block;
+}
+
+itv ita::before {
+  content: "[参考题解] ";
+  display: block;
+  font-weight: bold;
+}
+
+bmask {
+  color: #888;
+  display: block;
+  height: 100px;
+  overflow: scroll;
+}
+
+bmask::before {
+  color: #000;
+  content: "[分析阶段] ";
+  display: block;
+  font-weight: bold;
+}
+
+bmask::after {
+  color: #f55;
+  content: "[分析结束]";
+  display: block;
+  font-weight: bold;
+}
+.title span {
+  color: var(--priColor);
+  font-size: 20px;
+}
+
+ans {
+  color: #f7f7f7;
+  display: block;
+  font-size: 12px;
+}
+ans::before {
+  color: #e7e7e7;
+  content: "[输出]";
+}
+
+ans.show {
+  color: #999;
+}
