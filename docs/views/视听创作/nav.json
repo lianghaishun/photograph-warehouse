@@ -31,7 +31,16 @@
       {
         "text": "后期流程",
         "collapsed": false,
-        "items": []
+        "items": [
+          {
+            "text": "混剪",
+            "link": "/views/视听创作/后期流程/混剪"
+          },
+          {
+            "text": "视频剪辑逻辑",
+            "link": "/views/视听创作/后期流程/视频剪辑逻辑"
+          }
+        ]
       }
     ],
     "/views/视听创作/实战案例": [

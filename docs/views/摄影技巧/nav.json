@@ -34,14 +34,40 @@
       {
         "text": "拍摄手法",
         "collapsed": false,
-        "items": []
+        "items": [
+          {
+            "text": "原片直出",
+            "link": "/views/摄影技巧/拍摄手法/原片直出"
+          },
+          {
+            "text": "摆姿",
+            "link": "/views/摄影技巧/拍摄手法/摆姿"
+          }
+        ]
       }
     ],
     "/views/摄影技巧/构图方法": [
       {
         "text": "构图方法",
         "collapsed": false,
-        "items": []
+        "items": [
+          {
+            "text": "人像构图",
+            "link": "/views/摄影技巧/构图方法/人像构图"
+          },
+          {
+            "text": "光位",
+            "link": "/views/摄影技巧/构图方法/光位"
+          },
+          {
+            "text": "景别",
+            "link": "/views/摄影技巧/构图方法/景别"
+          },
+          {
+            "text": "角度",
+            "link": "/views/摄影技巧/构图方法/角度"
+          }
+        ]
       }
     ],
     "/views/摄影技巧/色彩搭配": [
